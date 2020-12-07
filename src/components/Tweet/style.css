@@ -1,0 +1,33 @@
+.Tweet {
+  padding: 10px;
+  border: 1px solid #f6f6f6;
+}
+
+.Tweet:hover {
+  background: #f9f9f9;
+}
+
+.Tweet:active {
+  background: #f3f3f3;
+}
+
+.Tweet div {
+  display: flex;
+  align-items: center;
+}
+
+.tweet-user-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #111;
+}
+
+.tweet-user-name {
+  font-weight: bold;
+}
+
+.tweet-content {
+  margin: 20px 5px;
+}
